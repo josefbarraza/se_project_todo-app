@@ -14,4 +14,4 @@ This project was built using HTML, CSS, and JavaScript. It uses techniques such 
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+https://github.com/josefbarraza/se_project_todo-app
