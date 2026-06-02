@@ -33,6 +33,14 @@ class Todo {
 
     this._todoDateEl = this._todoElement.querySelector(".todo__date");
 
+    if (this._data.date) {
+      this._todoDataEl.textContent = this._data.date.toLocaleString("en-US", {
+        year: "numeric",
+        month: "short",
+        day: "2-digit",
+      });
+    }
+
     this._generateCheckboxEl();
     this._setEventListeners();
 
