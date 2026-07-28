@@ -7,7 +7,7 @@ class FormValidator {
     this._inactiveButtonClass = settings.inactiveButtonClass;
     this._formEl = formEl;
 
-    this._inputLIst = Array.from(
+    this._inputList = Array.from(
       this._formEl.querySelectorAll(this._inputSelector),
     );
     this._submitButtonElement = this._formEl.querySelector(
